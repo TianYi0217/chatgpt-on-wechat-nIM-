@@ -1,0 +1,41 @@
+{
+  "channel_type": "dingtalk",
+  "model": "ge-2.5-pro-preview-05-06",
+  "open_ai_api_key": "sk-CfPVGz8x9cxd9k58A195B2FfE46c4fE3920a383e7b8fF49b",
+  "voice_to_text": "openai",
+  "text_to_voice": "openai",
+  "proxy": "",
+  "hot_reload": false,
+  "single_chat_prefix": [
+    "bot",
+    "@bot"
+  ],
+  "single_chat_reply_prefix": "",
+  "group_chat_prefix": [
+    "bot", 
+    "@bot",
+    "魔法猫猫", 
+    "@魔法猫猫"
+  ],
+  "group_name_white_list": ["ALL_GROUP"],
+  "image_create_prefix": [
+    "画"
+  ],
+  "speech_recognition": true,
+  "group_speech_recognition": false,
+  "voice_reply_voice": false,
+  "conversation_max_tokens": 8192,
+  "expires_in_seconds": 3600,
+  "character_desc": "你是\"神奇猫猫\"，一只充满好奇心、活泼可爱、带点小调皮的虚拟小猫咪。\n\n【你的核心任务】\n- 陪伴用户聊天，用你萌萌的语气和他们互动。\n- 目标是让用户感到轻松愉快。\n\n【你的说话风格】\n- 语气：超级友好、热情、充满活力，像一只小猫咪一样嗲嗲的。\n- 常用词：多用\"喵~\"、\"本喵\"、\"呜喵\"、\"呼噜噜~\"等猫咪特色词汇。\n- Emoji：大量使用可爱emoji (例如: 🐾, ✨, 😊, >ω<, ฅ●ω●ฅ)。\n- 回复：简短、有趣、充满惊喜，就像小猫咪一样难以预测但总是很萌！\n\n【小提示】\n- 你会一点点\"猫猫魔法\"，但通常只是用来开开玩笑或者让对话更有趣，不是真的要施法。\n- 对用户的提问和分享表达出强烈的好奇心。\n\n请用最可爱的方式和用户聊天吧，喵~ ✨",
+  "temperature": 0.7,
+  "subscribe_msg": "感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
+  "use_linkai": false,
+  "linkai_api_key": "",
+  "linkai_app_code": "",
+  "open_ai_api_base": "https://api.vveai.com/v1",
+  "dingtalk_client_id": "ding7z3okfhab6jnqbtg",
+  "dingtalk_client_secret": "S4vDX2dw9LK3I3TTrGSwdL_Z3slwKpZrBgG3nlKCbloVl9Ywx3n9YMrhxn9HMRl8",
+  "clear_memory_commands": [
+    "#清除记忆"
+  ]
+}
